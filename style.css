@@ -1,0 +1,35 @@
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    margin: 30px;
+    padding: 30px;
+    
+    font-family: "Press Start 2P";
+}
+
+.wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+.posts {
+    list-style-type: none;
+    text-align: justify;
+}
+
+.posts dt {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.posts dd {
+    margin: 0;
+    padding: 0 0 0.5em 0;
+}
+
+p {
+    word-break: break-word;
+    font-size: small;
+}
