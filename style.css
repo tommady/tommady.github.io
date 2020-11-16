@@ -33,3 +33,12 @@ p {
     word-break: break-word;
     font-size: small;
 }
+
+@keyframes spinner-line-fade-quick {
+  0%, 39%, 100% {
+    opacity: 0.25; /* minimum opacity */
+  }
+  40% {
+    opacity: 1;
+  }
+}
