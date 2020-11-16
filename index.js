@@ -2,7 +2,7 @@ import { Spinner } from "./spin.js";
 const spinner = new Spinner({ color: "#eb7070", lines: 9, animation: 'spinner-line-fade-quick' }).spin(document.getElementById("loading"));
 
 const run = async () => {
-    const { Octokit } = import("https://cdn.skypack.dev/@octokit/core");
+    const { Octokit } = await import("https://cdn.skypack.dev/@octokit/core");
     const octokit = new Octokit();
     const response = await octokit.request('GET /users/{username}/gists', {
         username: 'tommady'
